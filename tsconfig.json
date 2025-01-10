@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2020", 
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext", 
+    "strict": true, 
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true, 
+    "outDir": "./slrdb-dist", 
+    "rootDir": "./src", 
+    "lib": ["esnext", "dom"] ,
+    "baseUrl": ".", 
+    "paths": {
+      "@/*": ["./src/*"] 
+    }
+  }
+}
